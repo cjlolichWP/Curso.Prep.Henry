@@ -1,0 +1,14 @@
+Explicaciones de los siguientes conceptos:
+
+* Variables - Son lugares de memoria en los cuales se almacenan valores que luego van a ser utilizados para un fin determinado.
+
+* Strings - Es un tipo de dato que puede tomar una 'variable'. Se utiliza para guarda o almacenar cadenas de textos.
+
+* Funciones (argumentos, `return`) - Su funcion principal de una función es la de agrupar lineas de codigo, logrando de ésta manera no se repite el mismo codigo fuente. Una vez creada la fucnión, sólo con instanciarla (con su nombre) se accede a su contenido. 
+Los 'argumentos' son los valores que les pasa a la funcion para que ése valor sea utlilizado en la misma. 
+El 'valor de retorno' o return de una función es el valor que se obtiene como resultado de haber ejecutado la función.
+
+* Declaraciones `if` - Son condicionales que determinan si una 'condicion' establecida la cumple (es verdadera) o no la cumple (es falso). Tomando de ésta manera dos caminos diferentes, es decir, si es verdadera la condicion se ejecutarán una determinada sentencia o código; y si es falsa, se ejecuta otra sentencia o código.
+
+* Valores booleanos (`true`, `false`) - Son tipos de datos que aceptan dos valores especificos: 'verdadero' o 'falso'. Se utilizan en el caso de que una variable quiera denotar un 'estado' en particular (como por ej: encendido y apagado).
+ 
