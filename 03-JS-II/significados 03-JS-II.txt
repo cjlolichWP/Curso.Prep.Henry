@@ -1,0 +1,6 @@
+Explicaciones de los siguientes conceptos (03-JS-II):
+
+* `for` - Es un bucle del tipo DRY code, el cual devuelbe un valor como resultado. Éste bucle contiene un valor inicial, un valor final y un valor incremental, los cuales son el condicional para que se ejecute el código que se encuentra dentro del bucle. Éste codigo contenido se ejecutará repetidas veces (desde el valor inicial) hasta que se cumpla el 'valor final' (según su incremento).
+
+* `&&`, `||`, `!` - Éstos son operadores lógicos para tipos de datos 'booleanos'. Éstos operadores se pueden incluir en una 'condicion' de un bucle determinando para la ejecución de un código (ej: en un 'if', 'for' o 'while'). Si el operador 'AND' no se cumple para la primer condición, no se evalua la segunda condicion 'AND' debido a que la primera es 'false'. Si el operador 'OR' se cumple para la primer condición, no se evalua la segunda condicion 'OR' debido a que la primera es 'true'. El operador 'NOT' se utiliza para 'negar' la condición.
+ 
