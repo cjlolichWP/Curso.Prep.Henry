@@ -1,0 +1,3 @@
+Explicacion del siguiente concepto (04-JS-III):
+
+* Array - Es un conjunto de elementos (que pueden ser de cualquier tipo - string, numericos, booleanos, undefined, null, funciones u arreglos). Este array puede ser accedido y utlizado para realizar operaciones matematicas. Tambien se pueden quitar elementos del array.
