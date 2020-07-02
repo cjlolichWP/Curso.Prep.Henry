@@ -1,0 +1,19 @@
+Explicacion del siguiente concepto (05-JS-IV):
+
+* Objetos - Son una colección de elementos que definen la estructura propia del 'objeto'. Un objeto tiene propiedades y métodos.
+
+* Propiedades - referencian a los atritutos que tiene el objeto, a los cuales se les puede asignar un valor, el cual puede ser de cualquier tipo (desde los tipos primitivos hasta inclusive una funcion, un array u otro objeto). A las propiedades las podemos acceder a traves de dos maneras (por Bracket Notation y Dot Notation).
+
+* Métodos - son las funciones que tienen los objetos (los métodos se denotan con la keyboard 'function()'.
+
+* Bucle `for…in` - Los objetos no tienen índices numéricos como los array, entonces un 'for' estandar no va a funcionar si queremos recorrer los objetos.  Éste bucle comienza con una variable, la palabra clave in y el nombre del objeto a recorrer, ej: for (let i in persona). Con 'i' accedemos a conocer las propiedades del objeto, y con [i] podemos visualizar el valor de las propiedades del objeto, ej:
+for (let i in persona) {
+   console.log(i); --> muestra la propiedad (ej: nombre)
+   console.log(persona[i]); --> muestra el valor de la propiedad nombre (ej: 'Claudio')
+}
+
+
+* Notación de puntos vs notación de corchetes - La Dot Notation (notacion de puntos) es para referenciar un objeto seguido del punto y el nombre de la propiedad, ej: persona.nombre (objeto.propiedad). No se puede poner una variable para que referencie al nombre de la propiedad! Las Bracket Notatio (notacion de corchetes) se utilizan tambien para acceder a las propiedades de un objeto, y se especifican con los corchetes '[]' para acceder a la propiedad del objet, ej: persona['nombre'] (objeto.propiedad). En este tipo SI se puede reemplazar el valor de la propiedad por una variable; ej: 
+var nombrePersona = 'nombre'; 
+persona[nombrePersona] --> hace referencia a la propiedad nombre del objeto persona!!!
+
