@@ -1,0 +1,9 @@
+Explicacion del siguiente concepto (06-JS-V):
+
+* `prototype` - Todos los objetos en JS tienen una referencia a otro 'objeto' del cual dependen. Éste objeto referencia se llama "proto" (al cual conocemos si ejecutamos el comando: __proto__ de cualquier objeto). Para agregar una metodo en un objeto o modificar un metodo existente de un objeto, podemos acceder por medio del la sentencia 'prototype' a realizar ésto. Ej: String.prototype.stringReverse (estamos agregando el metodo 'stringReverse' al prototipo del objeto global 'String' para que despues sea utilizado cuano se instancia).
+
+* _Constructors_ (de Clases) - El constructor sirve para que todos los objetos de la misma clase puedan compartir sus métodos (funciones). Es llamado 'function constructor' y puede realizarse de tres maneras diferentes: por Prototype, por Object create o por ES6.
+
+
+
+
