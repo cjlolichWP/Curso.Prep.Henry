@@ -1,2 +1,10 @@
 Explicacion del siguiente concepto (07-JS-VI):
 
+* Funciones Callback - es una funcion que pasamos como parametro o argumento a otras funciones, y que en algun momento de la ejecución, ése Callback se va a ejecutar. El uso de callback es propio de JS. Cuando pasamos la funcion a otro función, la primera no tiene que estar invocada, es decir entre (). 
+Tambien podemos decir que la funcion de callback se puede definir en la propia funcion que es llamda, ej:
+
+crearSaludo('usuario', functionSaludar(parametro){
+	return 'Hola ' + parametro;
+}
+
+
